@@ -5,7 +5,7 @@ Console.InputEncoding = System.Text.Encoding.UTF8;
 
 var stopwatch = Stopwatch.StartNew();
 
-string filePath = "D:/Нова папка/ООП/Приклади/input.txt";
+string filePath = "D:/Visual Studio/Console/OOP8-prak-sync/input.txt";
 string? directoryPath = Path.GetDirectoryName(filePath);
 if (!string.IsNullOrEmpty(directoryPath) && !Directory.Exists(directoryPath))
 {
